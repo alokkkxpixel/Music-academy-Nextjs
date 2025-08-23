@@ -1,0 +1,64 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Guitar Fundamentals",
+      "slug": "guitar-fundamentals",
+      "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/guitar.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Piano for Beginners",
+      "slug": "piano-for-beginners",
+      "description": "Start your piano journey with easy-to-follow lessons and practice exercises.",
+      "price": 89.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "/courses/piano.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Drumming Basics",
+      "slug": "drumming-basics",
+      "description": "Discover rhythm, timing, and beats in this fun drumming course.",
+      "price": 79.99,
+      "instructor": "Mike Johnson",
+      "isFeatured": false,
+      "image": "/courses/drums.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Violin Mastery",
+      "slug": "violin-mastery",
+      "description": "Learn classical and modern violin techniques step by step.",
+      "price": 109.99,
+      "instructor": "Emily Davis",
+      "isFeatured": true,
+      "image": "/courses/violin.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Music Production 101",
+      "slug": "music-production-101",
+      "description": "Master the basics of music production using industry-standard software.",
+      "price": 129.99,
+      "instructor": "David Wilson",
+      "isFeatured": true,
+      "image": "/courses/production.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Singing Essentials",
+      "slug": "singing-essentials",
+      "description": "Improve your vocal range, pitch, and tone with guided exercises.",
+      "price": 69.99,
+      "instructor": "Sophia Lee",
+      "isFeatured": false,
+      "image": "/courses/singing.jpg"
+    }
+  ]
+}

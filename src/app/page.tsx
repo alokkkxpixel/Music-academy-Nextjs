@@ -1,8 +1,19 @@
+import FeaturesCourses from '@/components/FeaturesCourses'
+import HeroSection from '@/components/HeroSection'
+import InfinityScrollPage from '@/components/InfinityScrollPage'
+import StickyScrollPage from '@/components/StickyScrollPage'
+import StickyScroll from '@/components/StickyScrollPage'
+import { main } from 'motion/react-client'
 import React from 'react'
 
 const Home = () => {
   return (
-    <div className='text-center text-xl mt-10'>home</div>
+    <main className='min-h-screen p-3 bg-black/[0.96] antialiased bg-grid-white/[0.02]'>
+      <HeroSection />
+      <FeaturesCourses />
+      <StickyScrollPage />
+      <InfinityScrollPage />
+    </main>
   )
 }
 
