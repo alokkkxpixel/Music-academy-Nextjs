@@ -1,3 +1,4 @@
+import Contributors from '@/components/Contributors'
 import FeaturesCourses from '@/components/FeaturesCourses'
 import HeroSection from '@/components/HeroSection'
 import InfinityScrollPage from '@/components/InfinityScrollPage'
@@ -15,6 +16,7 @@ const Home = () => {
       <StickyScrollPage />
       <InfinityScrollPage />
       <UpcomingWeb />
+      <Contributors />
     </main>
   )
 }

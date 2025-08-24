@@ -54,7 +54,7 @@ const featuredWebinars = [
 
     
   return (
-    <div className='p-12 bg-gray-900'>
+    <div className='p-12 bg-black'>
       
       <div className="max-w-7xl mx-auto px-4  sm:px-6">
         <div className="text-center">
@@ -64,9 +64,9 @@ const featuredWebinars = [
         <div className="mt-10">
             <HoverEffect items={featuredWebinars.map((webinar)=> (
                 {
-                    title:webinar.title,
-                    description:webinar.description,
-                    
+                    title: webinar.title,
+                    description: webinar.description,
+                    link: `/webinars/${webinar.slug}`
                 }
             ))}/>
         </div>
