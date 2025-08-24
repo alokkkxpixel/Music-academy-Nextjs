@@ -3,6 +3,7 @@ import HeroSection from '@/components/HeroSection'
 import InfinityScrollPage from '@/components/InfinityScrollPage'
 import StickyScrollPage from '@/components/StickyScrollPage'
 import StickyScroll from '@/components/StickyScrollPage'
+import UpcomingWeb from '@/components/UpcomingWeb'
 import { main } from 'motion/react-client'
 import React from 'react'
 
@@ -13,6 +14,7 @@ const Home = () => {
       <FeaturesCourses />
       <StickyScrollPage />
       <InfinityScrollPage />
+      <UpcomingWeb />
     </main>
   )
 }
